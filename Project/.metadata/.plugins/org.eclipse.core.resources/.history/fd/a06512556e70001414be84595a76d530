@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a79f9f"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CfcActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/cfc1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" \n Tentang CFC" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+                Sejak dipasarkan untuk pertama kalinya,produk CFC dan jaringan restorannya membidik target market keluarga. Artinya, produk CFC memang diperuntukkan bagi segala usia dan kalangan,tua muda hingga anak-anak. Cita rasa hidangannya dikemas pas untuk selera lidah khalayak Indonesia,namun penyajian dan suasana gerainya berkelas internasional. California Fried Chicken adalah restoran dalam waralaba makanan yang menghasilkan ayam. Perusahaan ini didirikan pada tahun1983 di Jakarta. Hingga saat ini, California Fried Chicken memiliki lebih dari 180 gerai di seluruh Indonesia.
+                \n CFC setia dengan citra sebagai jaringan restoran cepat saji yang mengutamakn penyajian menu utama produk ayam goreng gurih garing versi fried chicken. Penyajiannya disetiap gerai didampingi aneka minuman ringan dan menu lain seperti Chicken Corn Soup, Chicken Strip dan Onion Ring.Lepas dari kurun waktu duapuluh tahun,CFC mulai menggali peluang menu-menu pendamping yang variatif serta disajikan secara inovatif seperti meluncurkan menu lokal dengan ciri khas CFC,seperti Sate Baso, Otak-otak, Siomay dan aneka gorengan seperti nasi goreng, mie goreng, bihun goreng, serta spaghetti goreng.
+                \n \n Lokasi CFC di WTC Batanghari Lantai Dasar
+               " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

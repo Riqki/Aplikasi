@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".BakmiActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/bakmi1" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tentang" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:text="Bakmi merupakan makanan yang bukan hanya disukai orang indonesia saja, tetapi bakmi juga disukaioleh masyarakat Internasional, hanya saja penyebutan namanya yang berbeda. Di jepang biasa dikenal dengan makanan yang bernama Udon, di eropa khusus nya di italia dikenal dengan spaghetti dinegara barat pun mereka sangat suka sekali dengan berbagai macama pasta seperti Fettucine,fussily dan penne. 
+                Lokasi Bakmi Naga Resto di WTC Batanghari 
+                lantai dua 
+                " />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
